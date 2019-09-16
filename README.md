@@ -1,8 +1,12 @@
 # Adventure Theme
 
 [![GitHub package.json version](https://img.shields.io/github/package-json/v/Nereare/adventure-theme)](https://github.com/Nereare/adventure-theme)
+[![Gem](https://img.shields.io/gem/v/adventure_theme)](https://rubygems.org/gems/adventure_theme)
 [![License](https://img.shields.io/github/license/Nereare/adventure-theme.svg)](https://github.com/Nereare/adventure-theme)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v1.4%20adopted-ff69b4.svg)](CODE-OF-CONDUCT.md)
+
+[![Travis (.org)](https://img.shields.io/travis/Nereare/adventure-theme)](https://travis-ci.org/Nereare/adventure-theme)
+[![Libraries.io dependency status for GitHub repo](https://img.shields.io/librariesio/github/Nereare/adventure-theme)](https://libraries.io/github/Nereare/adventure-theme)
 
 A jekyll theme for Adventure-generated adventures.
 
