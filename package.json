@@ -1,6 +1,6 @@
 {
-  "name": "{{PKG_NAME}}",
-  "description": "{{PKG_DESC}}",
+  "name": "adventure-theme",
+  "description": "A jekyll theme for Adventure-generated adventures.",
   "version": "0.1.0",
   "maintainers": [
     {
@@ -10,7 +10,7 @@
     }
   ],
   "bugs": {
-    "web": "https://github.com/{{PKG_REPO}}/issues"
+    "web": "https://github.com/Nereare/adventure-theme/issues"
   },
   "license": "MIT"
 }

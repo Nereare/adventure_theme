@@ -1,4 +1,4 @@
-# [{{PKG_NAME}}](https://github.com/{{PKG_REPO}}) Changelog
+# [adventure-theme](https://github.com/Nereare/adventure-theme) Changelog
 
 All notable changes to this project will be documented in this file.
 
