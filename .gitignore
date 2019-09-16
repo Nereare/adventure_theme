@@ -1,5 +1,5 @@
-# Created by https://www.gitignore.io/api/osx,node,less,sass,code,grunt,linux,bower,windows,dropbox
-# Edit at https://www.gitignore.io/?templates=osx,node,less,sass,code,grunt,linux,bower,windows,dropbox
+# Created by https://www.gitignore.io/api/osx,node,less,code,grunt,linux,bower,macos,jekyll,windows,dropbox
+# Edit at https://www.gitignore.io/?templates=osx,node,less,code,grunt,linux,bower,macos,jekyll,windows,dropbox
 
 ### Bower ###
 bower_components
@@ -27,6 +27,12 @@ dist/
 # Grunt usually preprocesses files such as coffeescript, compass... inside the .tmp directory
 .tmp/
 
+### Jekyll ###
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
 ### Less ###
 *.less
 
@@ -44,6 +50,34 @@ dist/
 
 # .nfs files are created when an open file is removed but is still being accessed
 .nfs*
+
+### macOS ###
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
 
 ### Node ###
 # Logs
@@ -136,37 +170,14 @@ typings/
 
 ### OSX ###
 # General
-.DS_Store
-.AppleDouble
-.LSOverride
 
 # Icon must end with two \r
-Icon
 
 # Thumbnails
-._*
 
 # Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
-.com.apple.timemachine.donotpresent
 
 # Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
-
-### Sass ###
-.sass-cache/
-*.css.map
-*.sass.map
-*.scss.map
 
 ### Windows ###
 # Windows thumbnail cache files
@@ -194,4 +205,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.gitignore.io/api/osx,node,less,sass,code,grunt,linux,bower,windows,dropbox
+# End of https://www.gitignore.io/api/osx,node,less,code,grunt,linux,bower,macos,jekyll,windows,dropbox
