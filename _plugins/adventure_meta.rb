@@ -9,7 +9,7 @@ module Jekyll
       if level.is_a? Array
         out += "for levels #{ordinal(level[0])} through #{ordinal(level[1])}."
       else
-        out += 'for ' + (characers > 1 ? 'a ' : '') + "#{ordinal(level)} "
+        out += 'for ' + (characers > 1 ? '' : 'a ') + "#{ordinal(level)}-level "
         out += 'characer' + (characers > 1 ? 's.' : '.')
       end
 
