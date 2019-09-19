@@ -1,16 +1,22 @@
 {
-  "name": "adventure-theme",
-  "description": "A jekyll theme for Adventure-generated adventures.",
-  "version": "0.1.0",
-  "maintainers": [
+  "name"                         : "adventure-theme",
+  "description"                  : "A jekyll theme for Adventure-generated adventures.",
+  "version"                      : "0.1.0",
+  "maintainers"                  : [
     {
-      "name": "Igor Padoim",
-      "email": "igorpadoim@gmail.com",
-      "web": "https://nereare.github.io/"
+      "name"                     : "Igor Padoim",
+      "email"                    : "igorpadoim@gmail.com",
+      "web"                      : "https://nereare.github.io/"
     }
   ],
-  "bugs": {
-    "web": "https://github.com/Nereare/adventure-theme/issues"
+  "bugs"                         : {
+    "web"                        : "https://github.com/Nereare/adventure-theme/issues"
   },
-  "license": "MIT"
+  "license"                      : "MIT",
+  "dependencies"                 : {
+    "@mdi/font"                  : "^4.1.95",
+    "getskeleton"                : "^2.0.4",
+    "normalize.css"              : "^8.0.1",
+    "typeface-libre-baskerville" : "^0.0.72"
+  }
 }
