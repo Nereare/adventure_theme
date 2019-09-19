@@ -1,0 +1,96 @@
+---
+# Read me Jekyll. #kthxbye
+---
+
+$header   : #922610;
+$h-line   : #e69a28;
+$body     : #212121;
+$back     : #eee5ce;
+$bar      : $h-line;
+
+$link     : $header;
+$alink    : #cf2d0c;
+
+html { font-size: 12px; }
+body {
+  background-color: $back;
+  background-image: url('https://i.imgur.com/kGmFpkF.jpg');
+  background-size: cover;
+
+  font-family: 'Libre Baskerville', serif;
+  text-align: justify;
+  color: $body;
+
+  margin-top: 1em;
+}
+h1, h2, h3, h4 {
+  color: $header;
+  font-size: 3em;
+}
+a {
+  text-decoration: none;
+  &, &:link, &:visited { color: $link; }
+  &:hover, &:active { color: $alink; }
+}
+
+header {
+  h1 {
+    margin-bottom: 0;
+    & + p { font-size: 0.8em; }
+  }
+  &.smol {
+    margin-bottom: 2em;
+    text-align: center;
+    h1 {
+      font-size: 0.8em;
+      display: inline;
+      & + p {
+        display: inline;
+        margin-left: 1em;
+        font-size: 0.7em;
+        &:before {
+          content: '|';
+          margin-right: 1em;
+        }
+      }
+    }
+  }
+}
+
+.page-404 {
+  h2, p {
+    text-align: center;
+    margin-bottom: 0.3em;
+  }
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em;
+    max-width: 256px;
+  }
+}
+
+.building {
+  margin-bottom: 1.5em;
+  p { margin-bottom: 0.3em; }
+  p.type {
+    margin-top: -1.0em;
+    font-family: 'Montserrat', sans-serif;
+    font-variant: small-caps;
+    font-weight: 700;
+    overflow: auto;
+  }
+  h5 { margin-bottom: 0.3em; }
+  h6 {
+    font-size: 1.1em;
+    margin-bottom: 0;
+    margin-top: 0.5em;
+  }
+  ul { margin-bottom: 0; }
+  li {
+    list-style: none;
+    margin-left: 1.5em;
+    margin-bottom: 0.3em;
+  }
+}
