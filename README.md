@@ -43,3 +43,8 @@ This project uses [SemVer](http://semver.org/) for versioning. For the versions 
 [![MIT License](https://i.imgur.com/Ze3dFob.png)](LICENSE.md)
 
 This project is available under the [MIT License](https://opensource.org/licenses/MIT).
+
+### Acknowledgements
+
+* [MIT License Logo](http://excaliburzero.deviantart.com/art/MIT-License-Logo-595847140) by [ExcaliburZero](http://excaliburzero.deviantart.com/) available under a [Creative Commons Attribution 3.0 License](https://creativecommons.org/licenses/by/3.0/).
+* Favicon adapted from [D20](https://thenounproject.com/term/d20/1279708/) by Rafaël Massé from the Noun Project, available under a [Creative Commons Attribution License 3.0](https://creativecommons.org/licenses/by/3.0/us/legalcode).
