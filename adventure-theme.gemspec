@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = 'adventure_theme'
-  spec.version       = '0.3.0'
+  spec.version       = '0.3.1'
   spec.authors       = ['Igor Padoim']
   spec.email         = ['igorpadoim@gmail.com']
   spec.license       = 'MIT'
