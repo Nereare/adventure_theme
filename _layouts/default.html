@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en-US' }}">
+  <head>
+    {% if site.google_analytics %}
+      <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', '{{ site.google_analytics }}');
+      </script>
+    {% endif %}
+
+    {% seo %}
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Favicon Links -->
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ 'assets/favicon/apple-touch-icon.png' | absolute_url }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ 'assets/favicon/favicon-32x32.png' | absolute_url }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ 'assets/favicon/favicon-16x16.png' | absolute_url }}">
+    <link rel="manifest" href="{{ 'assets/favicon/site.webmanifest' | absolute_url }}">
+    <link rel="mask-icon" href="{{ 'assets/favicon/safari-pinned-tab.svg' | absolute_url }}" color="#922610">
+    <link rel="shortcut icon" href="{{ 'assets/favicon/favicon.ico' | absolute_url }}">
+    <meta name="msapplication-TileColor" content="#922610">
+    <meta name="msapplication-config" content="{{ 'assets/favicon/browserconfig.xml' | absolute_url }}">
+    <meta name="theme-color" content="#eee5ce">
+
+    <title>{{ site.title }}</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/getskeleton@2.0.4-2/lib/css/skeleton.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@4.4.95/css/materialdesignicons.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap" />
+    <link rel="stylesheet" href="{{ 'css/style.css' | absolute_url }}" />
+    <link rel="stylesheet" href="{{ 'css/stats-block.css' | absolute_url }}" />
+    <link rel="stylesheet" href="{{ 'css/boxes.css' | absolute_url }}" />
+
+    {% feed_meta %}
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <div class="row">
+          <h1><a href="{{ '/' | absolute_url }}">{{ site.title }}</a></h1>
+          <p>{{ site.description }}</p>
+        </div>
+      </div>
+    </header>
+
+    <main class="container">
+      <div class="row">
+        <!-- CONTENTS -->
+        {{ content }}
+      </div>
+    </main>
+  </body>
+</html>
