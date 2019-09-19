@@ -1,0 +1,64 @@
+---
+layout: default
+intro: true
+---
+
+{% if page.use.default_intro %}
+<div class="row">
+  <h2>About the Site</h2>
+  <p>Welcome to a solo adventure for Dungeons &amp; Dragons 5e!</p>
+  <p><strong>{{ page.meta | adventure_meta }}</strong></p>
+  <p>This is an adventure, and will present you with places and situations, it will not manage your character(s), nor help you through its creation. For that you must have a <a href="https://dnd.wizards.com/articles/features/character_sheets">character sheet</a>, or use some <a href="https://orcpub2.com/">online service that manages characers</a>.</p>
+  {% if page.triggers %}
+  <details>
+    <summary class="mdi mdi-alert-circle-outline"> This adventure lists triggers, click here to see them.</summary>
+    <p>{{ page.triggers | join: ', ' }}</p>
+  </details>
+  {% endif %}
+  {{ content }}
+</div>
+{% else %}
+<div class="row">
+  <div class="twelve columns">
+    {{ content }}
+  </div>
+</div>
+{% endif %}
+
+<div class="row">
+  <div class="twelve columns">
+    <p><a href="{{ page.begin | default: 'adventures/' | relative_url }}" class="begin">Begin Adventure!</a></p>
+  </div>
+</div>
+
+{% if page.use.theme_notice %}
+<div class="row">
+  <div class="twelve columns">
+    <h2>About this Theme</h2>
+    <p>
+      <a href="https://rubygems.org/gems/adventure_theme"><img alt="Gem" src="https://img.shields.io/gem/v/adventure_theme"></a>
+      <a href="https://github.com/Nereare/adventure-theme/fork"><img alt="GitHub forks" src="https://img.shields.io/github/forks/Nereare/adventure-theme?style=social"></a>
+      <a href="https://github.com/Nereare/adventure-theme/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/Nereare/adventure-theme?style=social"></a>
+      <a href="https://github.com/Nereare/adventure-theme/watchers"><img alt="GitHub watchers" src="https://img.shields.io/github/watchers/Nereare/adventure-theme?style=social"></a>
+    </p>
+    <p>This is a theme for <a href="https://jekyllrb.com/">Jekyll</a>, made by <a href="https://github.com/Nereare">Igor Padoim</a>, which you can access (and fork and star ;) ) at <a href="https://github.com/Nereare/adventure-theme">its repository</a>.</p>
+    <p>It is not intended for blogs, however. This theme tweaks on the Jekyll engine to create <em>choose-your-own-adventure</em> games, with the original intent and design aimed towards tabletop RPGs (D&amp;D, I'm looking at you). Usage instructions for the theme (not this adventure) can also be found at the repository.</p>
+  </div>
+</div>
+{% endif %}
+
+{% if page.use.adventure_notice %}
+<div class="row">
+  <div class="twelve columns">
+    <h2>About the Adventure Generator</h2>
+    <p>
+      <a href="https://rubygems.org/gems/adventure"><img alt="Gem" src="https://img.shields.io/gem/v/adventure"></a>
+      <a href="https://github.com/Nereare/Adventure/fork"><img alt="GitHub forks" src="https://img.shields.io/github/forks/Nereare/Adventure?style=social"></a>
+      <a href="https://github.com/Nereare/Adventure/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/Nereare/Adventure?style=social"></a>
+      <a href="https://github.com/Nereare/Adventure/watchers"><img alt="GitHub watchers" src="https://img.shields.io/github/watchers/Nereare/Adventure?style=social"></a>
+    </p>
+    <p>This adventure was created by <a href="https://github.com/Nereare/Adventure">Adventure</a>, a <a href="https://www.ruby-lang.org/">Ruby</a> <a href="https://rubygems.org/">Gem</a> for creating entire D&amp;D adventures with randomness.</p>
+    <p>You can find more about it at <a href="https://github.com/Nereare/Adventure">the repository</a>, where you can learn how to get it and use it for yourself.</p>
+  </div>
+</div>
+{% endif %}

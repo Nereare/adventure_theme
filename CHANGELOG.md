@@ -40,6 +40,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Miscellaneous boxes stylesheet;
   - Monster stats stylesheet.
 * Layouts:
-  - Default.
+  - Default;
+  - Introduction.
 * Plugins:
   - Adventure metadata generator.
