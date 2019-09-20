@@ -11,9 +11,11 @@ Gem::Specification.new do |spec|
   spec.description   = spec.summary
   spec.homepage      = 'https://github.com/Nereare/adventure-theme'
 
-  spec.metadata['homepage_uri'] = spec.homepage
-  spec.metadata['source_code_uri'] = 'https://github.com/Nereare/adventure-theme'
-  spec.metadata['changelog_uri'] = 'https://github.com/Nereare/adventure-theme/blob/master/CHANGELOG.md'
+  spec.metadata['homepage_uri']      = spec.homepage
+  spec.metadata['source_code_uri']   = 'https://github.com/Nereare/adventure-theme'
+  spec.metadata['changelog_uri']     = 'https://github.com/Nereare/adventure-theme/blob/master/CHANGELOG.md'
+  spec.metadata['documentation_uri'] = 'https://nereare.github.io/adventure-theme/'
+  spec.metadata['bug_tracker_uri']   = 'https://github.com/Nereare/adventure-theme/issues'
 
   spec.files         = `git ls-files -z`.split('\x0').select do |f|
     f.match(%r{^((_includes|_layouts|_plugins|_sass|assets|css)/|(LICENSE|README|404)((\.(txt|md|markdown|html)|$)))}i)
