@@ -2,15 +2,15 @@
 title              : Home
 layout             : intro
 
+use                :
+  default_intro    : true
+  theme_notice     : false
+  adventure_notice : false
 meta               :
   characers        : 1
   level            :
     - 1
     - 5
-use                :
-  default_intro    : true
-  theme_notice     : false
-  adventure_notice : false
 triggers           :
   - Spiders
   - Violence
