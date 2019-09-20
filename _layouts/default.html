@@ -41,10 +41,7 @@
   </head>
 
   <body>
-    {% unless layout.intro %}
-    {% assign smol_class = ' smol' %}
-    {% endunless %}
-    <header class="container{{ smol_class }}">
+    <header class="container{% unless page.layout == 'intro' %} smol{% endunless %}">
       <div class="row">
         <h1><a href="{{ '/' | absolute_url }}">{{ site.title }}</a></h1>
         <p>{{ site.description }}</p>
