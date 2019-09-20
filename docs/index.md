@@ -53,7 +53,6 @@ author:
 license:
   name: License Name
   url: https://link.to.the/license
-system: RPG System Name
 description: Short description of the adventure
 
 theme: adventure_theme
