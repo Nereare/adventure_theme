@@ -11,6 +11,7 @@ meta               :
   level            :
     - 1
     - 5
+system             : Dungeons &amp; Dragons 5e
 triggers           :
   - Spiders
   - Violence

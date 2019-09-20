@@ -6,7 +6,6 @@ author           :
 license          :
   name           : MIT
   url            : https://opensource.org/licenses/MIT
-system           : Dungeons &amp; Dragons 5e
 description      : A jekyll theme for Adventure-generated adventures.
 
 markdown         : kramdown
