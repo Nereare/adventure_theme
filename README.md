@@ -10,13 +10,11 @@
 
 A jekyll theme for Adventure-generated adventures.
 
-## Installing
+## Getting Started
 
-<!--
-@todo Set installation instructions
-@body If there is some installation method, define it on the [README file](README.md).
--->
-1. To do. :cry:
+We now have a documentation on how to implement this theme for your adventures!
+
+Read all on how to set this theme up [**here**](https://nereare.github.io/adventure-theme).
 
 ## Contributing
 
