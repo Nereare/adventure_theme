@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    adventure_theme (0.4.2)
+    adventure_theme (0.4.3)
       jekyll (~> 4.0.0)
       jekyll-feed (~> 0.12.1)
       jekyll-seo-tag (~> 2.6.1)

@@ -2,6 +2,11 @@ title            : Adventure Theme
 author           :
   name           : Igor Padoim
   email          : igorpadoim@gmail.com
+  adventure      : false
+license          :
+  name           : MIT
+  url            : https://opensource.org/licenses/MIT
+system           : Dungeons &amp; Dragons 5e
 description      : A jekyll theme for Adventure-generated adventures.
 
 markdown         : kramdown
@@ -14,9 +19,9 @@ plugins          :
 collections      :
   adventures     :
     output       : true
-    sort_by      : title
 
 exclude          :
+  - docs/
   - script/
   - vendor/bundle/
   - vendor/cache/

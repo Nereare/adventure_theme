@@ -6,9 +6,11 @@ intro: true
 {% if page.use.default_intro %}
 <div class="row">
   <h2>About the Site</h2>
-  <p>Welcome to a solo adventure for Dungeons &amp; Dragons 5e!</p>
+  <p>Welcome to a solo adventure for {{ site.system }}!</p>
   <p><strong>{{ page.meta | adventure_meta }}</strong></p>
-  <p>This is an adventure, and will present you with places and situations, it will not manage your character(s), nor help you through its creation. For that you must have a <a href="https://dnd.wizards.com/articles/features/character_sheets">character sheet</a>, or use some <a href="https://orcpub2.com/">online service that manages characers</a>.</p>
+  <p>This is an adventure by <a href="mailto:{{ site.author.email }}?subject=feedback">{{ site.author.name }}</a>{% if site.author.adventure %} (generated through <a href="https://github.com/Nereare/Adventure">Adventure</a>){% endif %}, and will present you with places and situations, it will not manage your character(s), nor help you through its creation. For that you must have a <a href="https://dnd.wizards.com/articles/features/character_sheets">character sheet</a>, or use some <a href="https://orcpub2.com/">online service that manages characers</a>.</p>
+  <p>This is distributed under a <a href="{{ site.license.url }}">{{ site.license.name }}</a> License. Some contents may fall under the <a href="https://dnd.wizards.com/articles/features/systems-reference-document-srd">Open Game License</a>.</p>
+  <p>'d20 System' and the 'd20 System' logo are trademarks of Wizards of the Coast, Inc. and are used according to the terms of the d20 System License. A copy of this License can be found at <a href="http://www.wizards.com/default.asp?x=d20/article/srdarchive">www.wizards.com</a>.</p>
   {% if page.triggers %}
   <details>
     <summary class="mdi mdi-alert-circle-outline"> This adventure lists triggers, click here to see them.</summary>

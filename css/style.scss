@@ -14,7 +14,7 @@ $alink    : #cf2d0c;
 html { font-size: 12px; }
 body {
   background-color: $back;
-  background-image: url('https://i.imgur.com/kGmFpkF.jpg');
+  background-image: url({{ 'assets/background.jpg' | absolute_url }});
   background-size: cover;
 
   font-family: 'Libre Baskerville', serif;
