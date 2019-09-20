@@ -206,3 +206,5 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.gitignore.io/api/osx,node,less,code,grunt,linux,bower,macos,jekyll,windows,dropbox
+
+*.gem
