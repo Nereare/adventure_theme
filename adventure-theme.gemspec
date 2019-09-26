@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = 'adventure_theme'
-  spec.version       = '0.5.4'
+  spec.version       = '0.5.5'
   spec.authors       = ['Igor Padoim']
   spec.email         = ['igorpadoim@gmail.com']
   spec.license       = 'MIT'
@@ -18,7 +18,7 @@ Gem::Specification.new do |spec|
   spec.metadata['bug_tracker_uri']   = 'https://github.com/Nereare/adventure-theme/issues'
 
   spec.files         = `git ls-files -z`.split('\x0').select do |f|
-    f.match(%r{^((_includes|_layouts|_plugins|_sass|assets|css)/|(LICENSE|README|404)((\.(txt|md|markdown|html)|$)))}i)
+    f.match(%r{^((_includes|_layouts|_plugins|_sass|assets|css)/|(LICENSE|README|404)((\.(txt|md|markdown|html|scss|css)|$)))}i)
   end
 
   spec.platform = Gem::Platform::RUBY

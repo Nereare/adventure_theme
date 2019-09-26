@@ -1,7 +1,7 @@
 {
   "name"                         : "adventure-theme",
   "description"                  : "A jekyll theme for Adventure-generated adventures.",
-  "version"                      : "0.5.4",
+  "version"                      : "0.5.5",
   "maintainers"                  : [
     {
       "name"                     : "Igor Padoim",
