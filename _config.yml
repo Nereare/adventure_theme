@@ -4,8 +4,8 @@ author           :
   email          : igorpadoim@gmail.com
   adventure      : false
 license          :
-  name           : MIT
-  url            : https://opensource.org/licenses/MIT
+  name           : Hippocratic License
+  url            : https://firstdonoharm.dev/
 description      : A jekyll theme for Adventure-generated adventures.
 
 markdown         : kramdown

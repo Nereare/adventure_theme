@@ -2,7 +2,7 @@
 
 [![GitHub package.json version](https://img.shields.io/github/package-json/v/Nereare/adventure-theme)](https://github.com/Nereare/adventure-theme)
 [![Gem](https://img.shields.io/gem/v/adventure_theme)](https://rubygems.org/gems/adventure_theme)
-[![License](https://img.shields.io/github/license/Nereare/adventure-theme.svg)](https://github.com/Nereare/adventure-theme)
+[![License](https://img.shields.io/badge/license-Hippocratic%20License%20v1.2-red)](LICENSE.md)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v1.4%20adopted-ff69b4.svg)](CODE-OF-CONDUCT.md)
 
 [![Travis (.org)](https://img.shields.io/travis/Nereare/adventure-theme)](https://travis-ci.org/Nereare/adventure-theme)
@@ -38,11 +38,10 @@ This project uses [SemVer](http://semver.org/) for versioning. For the versions 
 
 ## Legal Stuff
 
-[![MIT License](https://i.imgur.com/Ze3dFob.png)](LICENSE.md)
+[![Hippocratic License](https://i.imgur.com/DEKS3nm.png)](LICENSE.md)
 
-This project is available under the [MIT License](https://opensource.org/licenses/MIT).
+This project is available under the [Hippocratic License](https://firstdonoharm.dev/).
 
 ### Acknowledgements
 
-* [MIT License Logo](http://excaliburzero.deviantart.com/art/MIT-License-Logo-595847140) by [ExcaliburZero](http://excaliburzero.deviantart.com/) available under a [Creative Commons Attribution 3.0 License](https://creativecommons.org/licenses/by/3.0/).
 * Favicon adapted from [D20](https://thenounproject.com/term/d20/1279708/) by Rafaël Massé from the Noun Project, available under a [Creative Commons Attribution License 3.0](https://creativecommons.org/licenses/by/3.0/us/legalcode).

@@ -12,7 +12,7 @@
   "bugs"                         : {
     "web"                        : "https://github.com/Nereare/adventure-theme/issues"
   },
-  "license"                      : "MIT",
+  "license"                      : "Hippocratic",
   "dependencies"                 : {
     "@mdi/font"                  : "^4.1.95",
     "getskeleton"                : "^2.0.4",

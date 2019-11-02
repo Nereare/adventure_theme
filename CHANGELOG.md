@@ -46,3 +46,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 * Plugins:
   - Adventure metadata generator.
 * Documentation.
+
+### Changed
+* License to the [Hippocratic License v1.2](https://firstdonoharm.dev/).
+
+[Unreleased]: https://github.com/Nereare/pueri/compare/v0.5.6...HEAD
+[0.5.6]: https://github.com/Nereare/pueri/releases/tag/v0.5.6
