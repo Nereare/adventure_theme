@@ -30,7 +30,7 @@ GEM
     ffi (1.11.1)
     ffi (1.11.1-x64-mingw32)
     forwardable-extended (2.6.0)
-    html-proofer (3.12.2)
+    html-proofer (3.13.0)
       addressable (~> 2.3)
       mercenary (~> 0.3)
       nokogiri (~> 1.10)
@@ -81,7 +81,7 @@ GEM
       mini_portile2 (~> 2.4.0)
     nokogiri (1.10.5-x64-mingw32)
       mini_portile2 (~> 2.4.0)
-    parallel (1.17.0)
+    parallel (1.18.0)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (4.0.1)
@@ -118,7 +118,7 @@ DEPENDENCIES
   activesupport (~> 6.0.0)
   adventure_theme!
   bundler (~> 2.0)
-  html-proofer (~> 3.12.1)
+  html-proofer (~> 3.13.0)
   nokogiri (~> 1.10.4)
   tzinfo (~> 1.2)
   tzinfo-data

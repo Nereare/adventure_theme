@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+* Bump `html-proofer` version to `3.13.0`.
+
+### Security
+* Bump `rubyzip` version to `2.0.0`.
+
 ## [0.5.6] - `2019-11-02`
 
 ### Added
