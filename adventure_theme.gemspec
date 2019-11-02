@@ -2,10 +2,10 @@
 
 Gem::Specification.new do |spec|
   spec.name          = 'adventure_theme'
-  spec.version       = '0.5.5'
+  spec.version       = '0.5.6'
   spec.authors       = ['Igor Padoim']
   spec.email         = ['igorpadoim@gmail.com']
-  spec.license       = 'MIT'
+  spec.license       = 'Hippocratic'
 
   spec.summary       = 'A jekyll theme for Adventure-generated adventures.'
   spec.description   = spec.summary
