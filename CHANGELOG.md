@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.5.6] - `2019-11-02`
+
 ### Added
 * Code of Conduct from [Contributor Covenant v1.4.1](https://www.contributor-covenant.org/).
 * [License](LICENSE.md).
