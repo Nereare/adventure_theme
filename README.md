@@ -5,8 +5,8 @@
 [![License](https://img.shields.io/badge/license-Hippocratic%20License%20v1.2-red)](LICENSE.md)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v1.4%20adopted-ff69b4.svg)](CODE-OF-CONDUCT.md)
 
-[![Travis (.org)](https://img.shields.io/travis/Nereare/adventure-theme)](https://travis-ci.org/Nereare/adventure-theme)
-[![Libraries.io dependency status for GitHub repo](https://img.shields.io/librariesio/github/Nereare/adventure-theme)](https://libraries.io/github/Nereare/adventure-theme)
+[![Travis (.org)](https://img.shields.io/travis/Nereare/adventure_theme)](https://travis-ci.org/Nereare/adventure_theme)
+[![Libraries.io dependency status for GitHub repo](https://img.shields.io/librariesio/github/Nereare/adventure_theme)](https://libraries.io/github/Nereare/adventure_theme)
 
 A jekyll theme for Adventure-generated adventures.
 
