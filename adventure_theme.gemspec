@@ -26,7 +26,7 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency 'activesupport', '~> 6.0.0'
   spec.add_development_dependency 'bundler', '~> 2.0'
-  spec.add_development_dependency 'html-proofer', '~> 3.13.0'
+  spec.add_development_dependency 'html-proofer', '~> 3.14.1'
   spec.add_development_dependency 'nokogiri', '~> 1.10.4'
 
   spec.add_dependency 'jekyll', '~> 4.0.0'
