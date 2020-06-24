@@ -30,7 +30,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'nokogiri', '>= 1.10.8'
 
   spec.add_dependency 'jekyll', '~> 4.0.0'
-  spec.add_dependency 'jekyll-feed', '>= 0.12.1', '< 0.14.0'
+  spec.add_dependency 'jekyll-feed', '>= 0.12.1', '< 0.15.0'
   spec.add_dependency 'jekyll-seo-tag', '~> 2.6.1'
   spec.add_dependency 'jekyll-sitemap', '>= 1.3.1', '< 1.5.0'
 end
