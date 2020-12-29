@@ -1,5 +1,6 @@
-# Adventure Theme
+# `DEPRECATED` Adventure Theme
 
+![DEPRECATED](https://img.shields.io/badge/DEPRECATED-2020--12--29-red)
 [![GitHub package.json version](https://img.shields.io/github/package-json/v/Nereare/adventure-theme)](https://github.com/Nereare/adventure-theme)
 [![Gem](https://img.shields.io/gem/v/adventure_theme)](https://rubygems.org/gems/adventure_theme)
 [![License](https://img.shields.io/badge/license-Hippocratic%20License%20v1.2-red)](LICENSE.md)
