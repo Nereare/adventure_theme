@@ -30,7 +30,7 @@ GEM
     ffi (1.14.2)
     ffi (1.14.2-x64-mingw32)
     forwardable-extended (2.6.0)
-    html-proofer (3.15.3)
+    html-proofer (3.18.2)
       addressable (~> 2.3)
       mercenary (~> 0.3)
       nokogumbo (~> 2.0)
@@ -120,7 +120,7 @@ DEPENDENCIES
   activesupport (~> 6.0.0)
   adventure_theme!
   bundler (~> 2.0)
-  html-proofer (~> 3.15.1)
+  html-proofer (~> 3.18.2)
   nokogiri (>= 1.10.8)
   tzinfo (~> 1.2)
   tzinfo-data
