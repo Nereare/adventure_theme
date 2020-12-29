@@ -24,7 +24,7 @@ Gem::Specification.new do |spec|
   spec.platform = Gem::Platform::RUBY
   spec.required_ruby_version = '>= 2.5.0'
 
-  spec.add_development_dependency 'activesupport', '~> 6.0.0'
+  spec.add_development_dependency 'activesupport', '~> 6.1.0'
   spec.add_development_dependency 'bundler', '~> 2.0'
   spec.add_development_dependency 'html-proofer', '~> 3.15.1'
   spec.add_development_dependency 'nokogiri', '>= 1.10.8'
